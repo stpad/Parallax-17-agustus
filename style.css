@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+ body {
+    background-image: url(img/BenderaIndo.jpeg);
+    min-height: 100vh;
+    overflow-x: hidden;
+ }
+
+ header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+ }
+
+ .navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+ }
+
+ .navbar a:hover {
+    background-color:#AE2525;
+    color: #fff;
+    font-weight: 700;
+ }
+
+ .parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* overflow-y: scroll; */
+ }
+
+ #hut_ri {
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+ }
+
+
+
+ .isi {
+    position: relative;
+    background-color: #7f2424;
+    padding: 100px;
+
+ }
+
+ .setben {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 1287px;
+   max-height: 200px;
+   overflow-x: hidden;
+ }
+ 
+
+ .isi h2 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 700;
+ }
+
+ .isi h3 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 700;
+ }
+
+ .isi ul li{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+ }
+
+ .isi p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+ }
+
+ .isi .sejarah {
+   display: flex;
+   justify-content: center;
+   grid-template-columns: 1fr 1fr; /* Membagi grid menjadi dua kolom dengan lebar yang sama */
+   gap: 50px; /* Jarak antara elemen-elemen dalam grid */
+   margin-top: 20px;
+   margin-bottom: 50px;
+ }
+ 
+ .isi .sejarah p {
+   grid-column: 1; /* Mengatur elemen <p> untuk berada di kolom pertama */
+ }
+ 
+ .isi .sejarah img {
+   grid-column: 2; /* Mengatur elemen <img> untuk berada di kolom kedua */
+   max-width: 100%; /* Membuat gambar tidak melebihi lebar kolom */
+   height: auto; /* Menjaga rasio aspek gambar */
+   border-radius: 10px;
+ }
+
+ .isi .panjatpinang {
+   display: flex;
+   justify-content: center;
+   grid-template-columns: 1fr 1fr; /* Membagi grid menjadi dua kolom dengan lebar yang sama */
+   gap: 50px; /* Jarak antara elemen-elemen dalam grid */
+   margin-top: 20px;
+   margin-bottom: 50px;
+ }
+ 
+ .isi .panjatpinang p {
+   grid-column: 1; /* Mengatur elemen <p> untuk berada di kolom pertama */
+ }
+ 
+ .isi .panjatpinang img {
+   grid-column: 2; /* Mengatur elemen <img> untuk berada di kolom kedua */
+   max-width: 100%; /* Membuat gambar tidak melebihi lebar kolom */
+   height: auto; /* Menjaga rasio aspek gambar */
+   border-radius: 10px;
+
+   
+ }
+
+ .isi .balapkarung {
+   display: flex;
+   justify-content: center;
+   grid-template-columns: 1fr 1fr; /* Membagi grid menjadi dua kolom dengan lebar yang sama */
+   gap: 50px; /* Jarak antara elemen-elemen dalam grid */
+   margin-top: 20px;
+   margin-bottom: 50px;
+ }
+ 
+ .isi .balapkarung p {
+   grid-column: 1; /* Mengatur elemen <p> untuk berada di kolom pertama */
+ }
+ 
+ .isi .balapkarung img {
+   grid-column: 2; /* Mengatur elemen <img> untuk berada di kolom kedua */
+   max-width: 100%; /* Membuat gambar tidak melebihi lebar kolom */
+   height: auto; /* Menjaga rasio aspek gambar */
+   border-radius: 10px; 
+ }
+
+ .isi .makankerupuk {
+   display: flex;
+   justify-content: center;
+   grid-template-columns: 1fr 1fr; /* Membagi grid menjadi dua kolom dengan lebar yang sama */
+   gap: 50px; /* Jarak antara elemen-elemen dalam grid */
+   margin-top: 20px;
+   margin-bottom: 50px;
+ }
+ 
+ .isi .makankerupuk p {
+   grid-column: 1; /* Mengatur elemen <p> untuk berada di kolom pertama */
+ }
+ 
+ .isi .makankerupuk img {
+   grid-column: 2; /* Mengatur elemen <img> untuk berada di kolom kedua */
+   max-width: 100%; /* Membuat gambar tidak melebihi lebar kolom */
+   height: auto; /* Menjaga rasio aspek gambar */
+   border-radius: 10px; 
+ }
+
+ .isi .tariktambang {
+   display: flex;
+   justify-content: center;
+   grid-template-columns: 1fr 1fr; /* Membagi grid menjadi dua kolom dengan lebar yang sama */
+   gap: 50px; /* Jarak antara elemen-elemen dalam grid */
+   margin-top: 20px;
+   margin-bottom: 50px;
+ }
+ 
+ .isi .tariktambang p {
+   grid-column: 1; /* Mengatur elemen <p> untuk berada di kolom pertama */
+ }
+ 
+ .isi .tariktambang img {
+   grid-column: 2; /* Mengatur elemen <img> untuk berada di kolom kedua */
+   max-width: 100%; /* Membuat gambar tidak melebihi lebar kolom */
+   height: auto; /* Menjaga rasio aspek gambar */
+   border-radius: 10px; 
+ }
+ 
+
